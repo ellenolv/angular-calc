@@ -1,0 +1,37 @@
+
+.forms{
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.operacoes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+#resultado{
+    background-color:#bed4c1;
+    border-color: aliceblue;
+    color: black;
+    font-size: small;
+    box-sizing: content-box;
+}
+.button{
+    background-color: #689c70;
+    border-color: #689c70;
+    width: 4em;
+    height: 2em;
+
+}
+
+.button:hover{
+    background-color: #37603d;
+    color: #f0f8ff;
+    cursor: pointer;
+}
