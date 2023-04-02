@@ -1,12 +1,16 @@
-<div>
+<div class="calc">
     <form class="forms"><!-- template de componente -->
-        <input type="number" name="num1" [(ngModel)]="num1" class="input"><!-- o name vale o equivalente ao id --><!-- [()] two way: atualiza automaticamente sempre que altera o atributo - dois sentidos -->
-        <input type="number" name="num2" [(ngModel)]="num2" class="input"><!-- formulario PRECISA ter NAME, sem ele nao funciona -->
+        <div class="entrada-dados">
+            <input type="number" name="num1" [(ngModel)]="num1" class="input" ><!-- o name vale o equivalente ao id --><!-- [()] two way: atualiza automaticamente sempre que altera o atributo - dois sentidos -->
+            <input type="number" name="num2" [(ngModel)]="num2" class="input" ><!-- formulario PRECISA ter NAME, sem ele nao funciona -->
+        </div>
+       
         <div class="operacoes">
             <button (click)="somar()" class="button"> + </button>
             <button (click)="subtrair()"  class="button"> - </button>
             <button (click)="dividir()" class="button"> / </button>
             <button (click)="multiplicar()" class="button"> * </button>
+            <button (click)="limpar()" class="button"> C </button>
         </div>
         
         <input [value] = "result" class="input" id="resultado" readonly><!-- one way - só tem um caminho ()-->

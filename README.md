@@ -4,9 +4,10 @@
 Essa é uma calculadora básica que implementei para aplicar conhecimentos de Angular que aprendi através da matéria Eletiva - Linguagem de programação IV INTERNET e conteúdos online. 
 
 visualize o projeto:
-===
 
-## Calc
+
+
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
 

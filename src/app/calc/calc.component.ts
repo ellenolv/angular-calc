@@ -6,12 +6,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./calc.component.css']
 })
 export class CalcComponent {
- //Atributos da classe/componente
+  //Atributos da classe/componente
   num1 : number = 0;
   num2 : number = 0;
   result : number = 0;
 
   //para que seja uma variavel voce precisa declarar dentro do metodo
+  limpar(){
+    this.num1 = 0;
+    this.num2 = 0;
+    this.result = 0;
+  }
   somar(){
     this.result = this.num1+this.num2;//o this é usado caso queira usar atributos
     //caso eu decalre a variavel dentro do metodo, eu não preciso usar o this, ele só é util caso voce queira pegar do atributo(diferente de java)

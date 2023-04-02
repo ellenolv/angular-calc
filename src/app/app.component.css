@@ -1,17 +1,28 @@
-.main{
+.container{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row-reverse;
+    flex-direction: column;
+    justify-content: flex-start;  
     
 }
 
-.description, .calculation{
-    width: 700px; 
+.item1, .item2{
     margin-left: auto;
     margin-right: auto;
-    padding: 3px; 
-    margin-top: 5cm;
+    margin-top: 2cm;
+}
+
+h1{
+    font-size: xx-large;
+    font-weight:bold;
+    color: darkgreen;
+}
+.item1{
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+   margin-left: 50px;
+   margin-right: 50px;
+   padding: 40px;
 }
 
 
